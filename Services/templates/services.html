@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Services</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='bootstrap/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='fontawesome/css/all.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='index.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">		
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+	</head>
+
+	<body style="background-image: url('{{ url_for('static',filename='Images/wbw1.jpg') }}'); background-size: 100% 100%; background-attachment:fixed;">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black;">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="#" class="navbar-brand"><i class="fas fa-car light"></i> GoCar</a>
+			</div>	
+
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="http://127.0.0.1:5000/">Home</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://127.0.0.1:5000/signup">Sign Up <i class="fa fa-user-plus"></i></a></li>
+					<li><a href="http://127.0.0.1:5000/login">Login <i class="fa fa-user"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>		
+
+		<div class="loginBox">
+			
+			<h2 style="color: white; font-family: 'Times New Roman'">Please Select a Service</h2>
+
+			<div class="btn-group btn-group-justified" role="group" aria-label="...">
+			  <div class="btn-group" role="group">
+			  	<a href="http://127.0.0.1:5000/issue_form"><button type="button" class="btn btn-primary">Issue Car</button></a>
+			  </div>
+			  <div class="btn-group" role="group">
+			  	<a href="http://127.0.0.1:5000/return_form"><button type="button" class="btn btn-success">Return Car</button></a>
+			  </div>
+			  <div class="btn-group" role="group">
+				<a href="http://127.0.0.1:5000/list_of_cars"><button type="button" class="btn btn-danger">Catalogue</button></a>
+			</div>
+			</div>
+
+
+		</div>
+		<script type="text/javascript" src="{{ url_for('static',filename='bootstrap/js/jquery-3.3.1.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static',filename='bootstrap/js/bootstrap.min.js') }}"></script>			
+	</body>
+</html>

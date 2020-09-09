@@ -1,0 +1,63 @@
+body {
+    background: url(Images/a7back.jpeg);
+    background-size: cover;
+    background-position: center center; 
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato';
+    color: white;
+}
+
+h1 {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 5em;
+	color: white;
+	margin-bottom: 4px;
+
+}
+
+
+.conten{
+	padding-top: 0%;
+	text-align: center;
+	color: black;
+                 
+}
+
+.btn-primary{
+	background-color: black;
+	color:white;
+}
+
+.fa-utensils{
+	color: white;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+hr.style-seven {
+	width: 700px;
+	margin: 0;
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before {
+	width: 700px; 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+}
