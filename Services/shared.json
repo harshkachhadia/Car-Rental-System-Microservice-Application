@@ -1,0 +1,33 @@
+{
+	"CarID" : {
+		"GJ0000001" : {
+			"CustID" : "120",
+			"CustName" : "HarshK",
+			"EmailID" : "harsh@gmail.com",
+			"ContactNo" : "9998887770",
+			"DateOfIssue" : "01/01/2000",
+			"DateOfReturn": "02/02/2019",
+			"CarName"  : "Honda City",
+			"CarColour" : "White",
+			"InitialDeposit" : 8000,
+			"RatePerKm" : 15,
+			"TotalKmUsed" : 20,
+			"TotalAmount" : 0
+		},
+		"GJ0000002" : {
+			"CustID" : "121",
+			"CustName" : "HastiB",
+			"EmailID" : "hasti@gmail.com",
+			"ContactNo" : "9997778880",
+			"DateOfIssue" : "01/02/2000",
+			"DateOfReturn": "02/02/2019",
+			"CarName"  : "Hynudai Verna",
+			"CarColour" : "White",
+			"InitialDeposit" : 8000,
+			"RatePerKm" : 15,
+			"TotalKmUsed" : 10,
+			"TotalAmount" : 0
+		}		
+	}
+}
+
